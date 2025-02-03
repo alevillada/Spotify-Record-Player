@@ -1,0 +1,13 @@
+# ignore .env and .cache
+.env
+.cache
+
+# ignore __pycache__   
+__pycache__
+utils/__pycache__
+rfid/__pycache__
+data/__pycache__
+
+# ignore my own data folder
+data/
+
