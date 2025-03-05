@@ -317,13 +317,9 @@ class RecordPlayer_DataFrame:
         
         # reload the database.
         self.df = pd.read_csv(self.df_path)
-        print("database succesfully created")
+        print("This RFID card will now be overwrite card.")
         sleep(2)
-
-        # # play the media
-        # sp = spotify_authenticator()
-
-        # rfid_data = self.extract_data(rfid)
-        # spotify_playback(sp, rfid_data)
+        print("database succesfully created\n")
+        
 
         return
